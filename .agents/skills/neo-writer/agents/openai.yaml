@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neo Writer"
+  short_description: "Sharp external writing in the Neo Labs voice"
+  default_prompt: "Use $neo-writer to draft this asset in the Neo Labs voice."

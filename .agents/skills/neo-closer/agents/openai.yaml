@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neo Closer"
+  short_description: "Proposals, objections, and decisive follow-up"
+  default_prompt: "Use $neo-closer to move this opportunity to a clear next step."

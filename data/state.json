@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "Neo Labs",
+    "model": "Venture studio + investment platform",
+    "northStar": "Build and back focused companies where execution creates an unfair advantage.",
+    "quarterFocus": "Turn the company model into a working operating cadence."
+  },
+  "projects": [
+    {
+      "id": "project-neo-os",
+      "name": "Neo Labs OS",
+      "kind": "Internal",
+      "stage": "Build",
+      "health": "On track",
+      "owner": "Founder",
+      "milestone": "Capture every active project and assign a next action.",
+      "nextAction": "Add the full portfolio to this dashboard.",
+      "due": "2026-08-16"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-portfolio-intake",
+      "title": "Add every active project",
+      "projectId": "project-neo-os",
+      "owner": "Founder",
+      "priority": "P0",
+      "due": "2026-08-16",
+      "status": "Next"
+    },
+    {
+      "id": "task-thesis-decisions",
+      "title": "Complete the investment thesis TBD fields",
+      "projectId": "project-neo-os",
+      "owner": "Founder",
+      "priority": "P1",
+      "due": "2026-08-23",
+      "status": "Backlog"
+    }
+  ],
+  "pipeline": [],
+  "decisions": [
+    {
+      "id": "decision-architecture",
+      "date": "2026-08-09",
+      "decision": "Use one company OS with distinct specialist roles.",
+      "why": "Shared context prevents fragmented work across projects."
+    }
+  ],
+  "updatedAt": "2026-08-09T00:00:00.000Z"
+}

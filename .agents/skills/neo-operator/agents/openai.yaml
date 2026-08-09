@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neo Operator"
+  short_description: "Portfolio priorities, ownership, and execution"
+  default_prompt: "Use $neo-operator to review the portfolio and set the next actions."

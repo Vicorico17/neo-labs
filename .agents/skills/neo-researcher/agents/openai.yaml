@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neo Researcher"
+  short_description: "Decision-grade research with sourced evidence"
+  default_prompt: "Use $neo-researcher to research this decision and return verified evidence."

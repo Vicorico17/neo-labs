@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Neo Labs company operating system">
+  <title>Neo Labs — Company OS</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview" aria-label="Neo Labs home">
+        <span class="brand-mark">N</span>
+        <span>NEO LABS<small>Company OS</small></span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-item active" data-view="overview"><span>01</span> Overview</button>
+        <button class="nav-item" data-view="portfolio"><span>02</span> Portfolio</button>
+        <button class="nav-item" data-view="pipeline"><span>03</span> Capital</button>
+        <button class="nav-item" data-view="tasks"><span>04</span> Operating queue</button>
+        <button class="nav-item" data-view="agents"><span>05</span> Agent desk</button>
+      </nav>
+      <div class="sidebar-foot">
+        <span class="status-dot"></span>
+        <span><strong>Local source of truth</strong><small id="lastSaved">Loading…</small></span>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div><span class="eyebrow" id="viewEyebrow">Command center</span><h1 id="viewTitle">Overview</h1></div>
+        <div class="top-actions"><button class="button ghost" id="exportButton">Export</button><button class="button primary" id="newButton">+ New project</button></div>
+      </header>
+      <div id="app" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <dialog id="recordDialog">
+    <form method="dialog" id="recordForm">
+      <div class="dialog-head"><div><span class="eyebrow">Create record</span><h2 id="dialogTitle">New project</h2></div><button class="icon-button" type="button" data-close-dialog aria-label="Close">×</button></div>
+      <div id="formFields"></div>
+      <div class="dialog-actions"><button class="button ghost" type="button" data-close-dialog>Cancel</button><button class="button primary" id="saveRecord" type="submit">Save record</button></div>
+    </form>
+  </dialog>
+  <div id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
