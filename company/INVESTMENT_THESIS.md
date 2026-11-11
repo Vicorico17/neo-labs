@@ -4,7 +4,9 @@ This is an internal thesis draft. It is not an offering document or legal advice
 
 ## Mandate
 
-Back projects where ro.fun can contribute more than capital through research, product, distribution, and operating support.
+Invest in AGI-proof startups. ro.fun is positioned as a funny Romanian private equity fund.
+
+Definition and evidence required for “AGI-proof”: `TBD`. This is the founder’s intended mandate, not a verified claim about any startup. Romanian identity does not establish legal domicile or restrict investment geography.
 
 ## Current thesis
 

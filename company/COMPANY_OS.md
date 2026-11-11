@@ -8,7 +8,9 @@ Use **ro.fun** as the working primary display name and **Neo Labs** as the exist
 
 ## Working positioning
 
-An investment fund with an operating mindset. Back companies where research, product, distribution, and practical operating support can help create value.
+Funny Romanian private equity fund investing in AGI-proof startups.
+
+Founder positioning recorded on 2026-11-11. “Romanian” describes the fund identity; legal domicile and investment geography remain `TBD`. “AGI-proof” is the intended investment thesis; its screening criteria remain `TBD`.
 
 The fund model is decided. The investment mandate and terms are not. Do not imply a launched fund, committed capital, existing investments, audited returns, or approved terms without evidence.
 

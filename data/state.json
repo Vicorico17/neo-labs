@@ -1,10 +1,11 @@
 {
   "company": {
     "name": "ro.fun",
-    "model": "Investment fund",
-    "northStar": "Conviction in the investment. Commitment to the company.",
+    "model": "Romanian private equity fund",
+    "northStar": "Investing in AGI-proof startups.",
     "quarterFocus": "Define the mandate, confirm the fund structure, and build an evidence-led investment pipeline.",
-    "legacyName": "Neo Labs"
+    "legacyName": "Neo Labs",
+    "positioning": "Funny Romanian private equity fund"
   },
   "projects": [
     {
@@ -61,6 +62,12 @@
       "date": "2026-11-11",
       "decision": "Neo Labs and ro.fun are one investment fund initiative.",
       "why": "Founder direction. Supersedes the separate studio and future investment-platform model. ro.fun is the working display name; legal status and terms remain TBD."
+    },
+    {
+      "id": "decision-ro-fun-positioning",
+      "date": "2026-11-11",
+      "decision": "Position ro.fun as a funny Romanian private equity fund investing in AGI-proof startups.",
+      "why": "Founder direction. AGI-proof screening criteria, legal domicile, investment geography, and fund terms remain TBD."
     }
   ],
   "updatedAt": "2026-11-11T00:00:00.000Z",
