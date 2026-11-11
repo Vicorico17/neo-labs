@@ -2,10 +2,11 @@
   "name": "neo-labs-os",
   "version": "0.1.0",
   "private": true,
-  "description": "Neo Labs company operating system",
+  "description": "ro.fun investment fund workspace",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check public/app.js"
+    "check": "node --check server.js && node --check public/app.js",
+    "test": "node --test tests/*.test.js"
   },
   "engines": {
     "node": ">=18"

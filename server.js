@@ -66,7 +66,7 @@ async function handler(req, res) {
 
 if (require.main === module) {
   http.createServer(handler).listen(PORT, '127.0.0.1', () => {
-    console.log(`Neo Labs OS running at http://localhost:${PORT}`);
+    console.log(`ro.fun fund workspace running at http://localhost:${PORT}`);
   });
 }
 

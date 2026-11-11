@@ -1,41 +1,51 @@
 {
   "company": {
-    "name": "Neo Labs",
-    "model": "Venture studio + investment platform",
-    "northStar": "Build and back focused companies where execution creates an unfair advantage.",
-    "quarterFocus": "Turn the company model into a working operating cadence."
+    "name": "ro.fun",
+    "model": "Investment fund",
+    "northStar": "Conviction in the investment. Commitment to the company.",
+    "quarterFocus": "Define the mandate, confirm the fund structure, and build an evidence-led investment pipeline.",
+    "legacyName": "Neo Labs"
   },
   "projects": [
     {
       "id": "project-neo-os",
-      "name": "Neo Labs OS",
+      "name": "Fund operating system",
       "kind": "Internal",
       "stage": "Build",
-      "health": "On track",
+      "health": "TBD",
       "owner": "Founder",
-      "milestone": "Capture every active project and assign a next action.",
-      "nextAction": "Add the full portfolio to this dashboard.",
-      "due": "2026-08-16"
+      "milestone": "Unify Neo Labs and ro.fun around one fund mandate.",
+      "nextAction": "Confirm the fund mandate and record existing investments, if any.",
+      "due": ""
     }
   ],
   "tasks": [
     {
       "id": "task-portfolio-intake",
-      "title": "Add every active project",
+      "title": "Record existing investments and supporting evidence",
       "projectId": "project-neo-os",
       "owner": "Founder",
       "priority": "P0",
-      "due": "2026-08-16",
+      "due": "",
       "status": "Next"
     },
     {
       "id": "task-thesis-decisions",
-      "title": "Complete the investment thesis TBD fields",
+      "title": "Define stage, sector, geography, and check size",
       "projectId": "project-neo-os",
       "owner": "Founder",
-      "priority": "P1",
-      "due": "2026-08-23",
+      "priority": "P0",
+      "due": "",
       "status": "Backlog"
+    },
+    {
+      "id": "task-fund-structure",
+      "title": "Confirm legal structure and review requirements with advisers",
+      "projectId": "project-neo-os",
+      "owner": "Founder",
+      "priority": "P0",
+      "due": "",
+      "status": "Next"
     }
   ],
   "pipeline": [],
@@ -45,7 +55,27 @@
       "date": "2026-08-09",
       "decision": "Use one company OS with distinct specialist roles.",
       "why": "Shared context prevents fragmented work across projects."
+    },
+    {
+      "id": "decision-one-fund",
+      "date": "2026-11-11",
+      "decision": "Neo Labs and ro.fun are one investment fund initiative.",
+      "why": "Founder direction. Supersedes the separate studio and future investment-platform model. ro.fun is the working display name; legal status and terms remain TBD."
     }
   ],
-  "updatedAt": "2026-08-09T00:00:00.000Z"
+  "updatedAt": "2026-11-11T00:00:00.000Z",
+  "fund": {
+    "legalStatus": "TBD",
+    "domicile": "TBD",
+    "targetSize": "TBD",
+    "stage": "TBD",
+    "sectors": "TBD",
+    "geography": "TBD",
+    "checkSize": "TBD",
+    "reserves": "TBD",
+    "fundLife": "TBD",
+    "fees": "TBD",
+    "carry": "TBD",
+    "decisionAuthority": "TBD"
+  }
 }

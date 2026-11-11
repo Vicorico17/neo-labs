@@ -1,4 +1,12 @@
-# Neo Labs Operating System
+# ro.fun Operating System
+
+## Fund workflow
+
+Investment pipeline: Sourced → Screening → Diligence → IC review → Approved → Invested. Watch and Passed preserve decisions that do not proceed. Stage changes alone do not create portfolio holdings or evidence of deployment.
+
+Investor relationships: Identified → Conversation → Diligence → Indication → Committed → Closed. Indications are not commitments. Confirm commitments and closes against source documents.
+
+Internal operations remain separate from recorded portfolio investments. Portfolio counts exclude internal work. Unknown metrics are `TBD`, never zero capital or invented performance.
 
 ## Portfolio stages
 

@@ -3,46 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Neo Labs company operating system">
-  <title>Neo Labs — Company OS</title>
+  <meta name="description" content="ro.fun — Investment fund workspace. One identity with Neo Labs.">
+  <meta name="theme-color" content="#572e3d">
+  <title>ro.fun — Fund workspace</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#app">Skip to content</a>
   <div class="shell">
     <aside class="sidebar">
-      <a class="brand" href="#overview" aria-label="Neo Labs home">
-        <span class="brand-mark">N</span>
-        <span>NEO LABS<small>Company OS</small></span>
-      </a>
+      <a class="brand" href="#overview" aria-label="ro.fun overview">ro.fun<span class="brand-dot">●</span><small>INVESTMENT FUND</small></a>
+      <div class="nav-label">WORKSPACE</div>
       <nav aria-label="Primary">
-        <button class="nav-item active" data-view="overview"><span>01</span> Overview</button>
-        <button class="nav-item" data-view="portfolio"><span>02</span> Portfolio</button>
-        <button class="nav-item" data-view="pipeline"><span>03</span> Capital</button>
-        <button class="nav-item" data-view="tasks"><span>04</span> Operating queue</button>
-        <button class="nav-item" data-view="agents"><span>05</span> Agent desk</button>
+        <a class="nav-item" href="#overview" data-view="overview"><span>◫</span> Overview</a>
+        <a class="nav-item" href="#pipeline" data-view="pipeline"><span>↗</span> Investments</a>
+        <a class="nav-item" href="#portfolio" data-view="portfolio"><span>◈</span> Portfolio</a>
+        <a class="nav-item" href="#investors" data-view="investors"><span>◎</span> Investors</a>
+        <a class="nav-item" href="#thesis" data-view="thesis"><span>≡</span> Fund thesis</a>
+        <a class="nav-item" href="#tasks" data-view="tasks"><span>☑</span> Operations</a>
+        <a class="nav-item" href="#agents" data-view="agents"><span>✳</span> Agent desk</a>
       </nav>
-      <div class="sidebar-foot">
-        <span class="status-dot"></span>
-        <span><strong>Local source of truth</strong><small id="lastSaved">Loading…</small></span>
-      </div>
+      <div class="sidebar-note"><span class="eyebrow">ONE FUND. ONE DIRECTION.</span><p>Neo Labs + ro.fun</p><small>A shared identity.<br>A single investment mandate.</small></div>
+      <div class="sidebar-foot"><span class="status-dot"></span><span><strong id="storageLabel">Fund workspace</strong><small id="lastSaved">Loading records…</small></span></div>
     </aside>
-
     <main>
-      <header class="topbar">
-        <div><span class="eyebrow" id="viewEyebrow">Command center</span><h1 id="viewTitle">Overview</h1></div>
-        <div class="top-actions"><button class="button ghost" id="exportButton">Export</button><button class="button primary" id="newButton">+ New project</button></div>
-      </header>
-      <div id="app" aria-live="polite"></div>
+      <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <strong id="viewEyebrow">Fund overview</strong></div><span class="private-badge">◌ Internal workspace</span></header>
+      <div class="page-head"><div><span class="eyebrow" id="pageEyebrow">THE BIG PICTURE</span><h1 id="viewTitle">Fund overview</h1></div><div class="top-actions"><button class="button ghost" id="exportButton">↓ Export records</button><button class="button primary" id="newButton">+ Add opportunity</button></div></div>
+      <div id="app" tabindex="-1" aria-live="polite"><div class="empty">Loading fund records…</div></div>
+      <footer class="page-foot"><span>ro.fun <span class="muted">/ Neo Labs</span></span><span>Internal working records · Fund formation status: TBD</span></footer>
     </main>
   </div>
-
-  <dialog id="recordDialog">
-    <form method="dialog" id="recordForm">
-      <div class="dialog-head"><div><span class="eyebrow">Create record</span><h2 id="dialogTitle">New project</h2></div><button class="icon-button" type="button" data-close-dialog aria-label="Close">×</button></div>
-      <div id="formFields"></div>
-      <div class="dialog-actions"><button class="button ghost" type="button" data-close-dialog>Cancel</button><button class="button primary" id="saveRecord" type="submit">Save record</button></div>
-    </form>
-  </dialog>
+  <dialog id="recordDialog"><form id="recordForm"><div class="dialog-head"><div><span class="eyebrow">FUND WORKSPACE</span><h2 id="dialogTitle">New record</h2></div><button class="icon-button" type="button" data-close-dialog aria-label="Close">×</button></div><div id="formFields"></div><div class="dialog-actions"><button class="button ghost" type="button" data-close-dialog>Cancel</button><button class="button primary" id="saveRecord" type="submit">Save record</button></div></form></dialog>
   <div id="toast" role="status"></div>
   <script src="/app.js"></script>
 </body>

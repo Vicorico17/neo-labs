@@ -1,56 +1,41 @@
-# Neo Labs Company OS
+# ro.fun — Fund OS
 
-## Core idea
+## Identity decision · 2026-11-11
 
-Neo Labs is the parent platform for building, operating, and backing focused companies. It should create leverage across projects without turning every project into the same business.
+Neo Labs and ro.fun are one investment fund initiative. The founder has chosen an investment fund as the business model, superseding the previous venture studio / future capital platform architecture.
+
+Use **ro.fun** as the working primary display name and **Neo Labs** as the existing name. The choice of primary display name is an implementation assumption, pending founder confirmation. These are not separate businesses or separate investment offerings. Legal entity name, formation, domicile, regulatory status, and launch status remain `TBD`.
 
 ## Working positioning
 
-Neo Labs builds useful companies, supplies shared operating capability, and selectively backs founders where its network and execution can change the outcome.
+An investment fund with an operating mindset. Back companies where research, product, distribution, and practical operating support can help create value.
 
-This is a working position, not final public copy.
+The fund model is decided. The investment mandate and terms are not. Do not imply a launched fund, committed capital, existing investments, audited returns, or approved terms without evidence.
 
-## Architecture
+## One operating system
 
-Use a clear separation of jobs:
-
-1. **Neo Labs HoldCo** — owns internal ventures, shared intellectual property, and long-term company interests.
-2. **Neo Labs Studio** — provides research, product, growth, and operating support to internal and selected external companies.
-3. **Neo Labs Capital** — the investment brand and future management company.
-4. **Fund or SPV vehicles** — separate legal entities that accept and deploy investor capital for a defined mandate.
-
-Do not accept outside investment capital into the ordinary operating company by default. The legal structure, licenses, marketing rules, investor eligibility, custody, reporting, and tax treatment depend on jurisdiction. Engage qualified counsel before fundraising.
-
-## Who Neo Labs serves
-
-- Internal ventures that need a repeatable launch and operating system.
-- Founders with a specific advantage and a solvable execution bottleneck.
-- Investors seeking focused exposure to a clearly defined thesis.
-
-## Shared capabilities
-
-- Decision-grade research
-- Positioning and narrative
-- Product and technical execution
-- Go-to-market systems
-- Sales support
-- Portfolio operations
-- Capital formation, only through the appropriate structure
+- One identity, thesis, investment pipeline, portfolio record, and decision log.
+- Investment opportunities and investor relationships have separate records and stages.
+- Portfolio companies are recorded investments; internal fund operations are not holdings.
+- Research, writing, commercial support, and portfolio operations serve the fund and its companies.
+- Manager, fund, and any vehicles are legal implementation questions, not separate public brands. Structure: `TBD`.
+- Keep operating cash, investor commitments, and investment capital separately accounted for.
 
 ## Decision principles
 
-- Concentrate effort where Neo Labs has a real advantage.
-- Every project must have one owner and one measurable next milestone.
 - Evidence beats enthusiasm.
-- Shared services must reduce time or risk, not add ceremony.
-- Kill weak work early. Preserve learning in the decision log.
-- Never blur operating revenue, client money, and investment capital.
+- Give every opportunity an owner, a next action, and a decision date.
+- Record the case against each proposed investment.
+- Separate sourcing, diligence, approval, and deployment.
+- Never represent an intention or verbal indication as deployed or committed capital.
 
 ## Founder decisions still required
 
-- Public one-line promise: `TBD`
-- Primary geography and legal domicile: `TBD`
-- Initial business model: studio fees, equity, carry, management fees, or a mix: `TBD`
-- First 12-month portfolio target: `TBD`
-- What Neo Labs will never invest in: `TBD`
-- Founder name and preferred first-person voice samples: `TBD`
+- Confirm ro.fun as primary display name: `TBD`
+- Legal name, domicile, structure, and formation status: `TBD`
+- Stage, sector, geography, exclusions, and investment edge: `TBD`
+- Fund target, check size, reserves, fees, carry, and fund life: `TBD`
+- Decision rights, investment committee, and reporting cadence: `TBD`
+- Founder name and voice samples: `TBD`
+
+Qualified legal and tax advisers must review the structure before money is raised or deployed. Public launch and external changes require explicit approval.

@@ -1,31 +1,27 @@
-# Neo Labs OS
+# ro.fun — Fund OS
 
-A local company operating system for running Neo Labs as a venture studio today and an investment platform over time.
+Neo Labs and ro.fun are one investment fund initiative. This repository holds the fund workspace, investment thesis, operating records, and specialist roles.
 
-## Start
+## Run locally
 
 ```bash
 npm start
 ```
 
-Open `http://localhost:4173`. The dashboard writes changes to `data/state.json`, so the portfolio remains portable and versionable.
+Open http://localhost:4173. Local edits write to `data/state.json`. The server binds to localhost; this workspace has no authentication and is intended for private local use.
 
-On a Vercel preview, edits fall back to browser-local storage because serverless files are read-only. Commit approved portfolio changes to `data/state.json` to preserve them as the shared source of truth.
+When file persistence is unavailable, edits are stored in this browser and clearly labeled. Export browser edits before clearing browser data. Existing Neo Labs browser records are preserved during the identity migration. Deployment and changes to the live ro.fun domain are separate actions requiring approval.
 
-## Use the agents
+## Workspace
 
-From this repository, ask Codex to use one of:
+- Overview: fund decisions, recorded holdings, priorities, and recent decisions.
+- Investments: sourcing through investment committee and deployment.
+- Portfolio: recorded investment companies, separate from fund operations.
+- Investors: relationships, indications, and commitments.
+- Thesis: editable mandate and fund parameters; unknowns remain TBD.
+- Operations: internal projects and owned actions.
+- Agent desk: research, writing, commercial support, and operations.
 
-- `$neo-researcher`
-- `$neo-writer`
-- `$neo-closer`
-- `$neo-operator`
+No investment records or fund terms are fabricated. This is an internal working system, not an offering document.
 
-The project instructions in `AGENTS.md` route work and keep each role grounded in the same company context.
-
-## First setup pass
-
-1. Replace every `TBD` in `company/` with an explicit founder decision.
-2. Add every active project to the dashboard.
-3. Give every project one owner, one current milestone, and one next action.
-4. Decide whether Neo Labs Capital starts with advisory, SPVs, or a regulated fund structure after legal review.
+Company policy lives in `company/`, records in `data/state.json`, and reusable work in role output directories. Use the existing `$neo-operator`, `$neo-researcher`, `$neo-writer`, and `$neo-closer` skills; their names remain stable.

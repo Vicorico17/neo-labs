@@ -1,10 +1,10 @@
-# Neo Labs Capital — Working Investment Thesis
+# ro.fun — Working Investment Thesis
 
 This is an internal thesis draft. It is not an offering document or legal advice.
 
 ## Mandate
 
-Back projects where Neo Labs can contribute more than capital through research, product, distribution, and operating support.
+Back projects where ro.fun can contribute more than capital through research, product, distribution, and operating support.
 
 ## Current thesis
 
@@ -22,7 +22,7 @@ Back projects where Neo Labs can contribute more than capital through research, 
 1. A specific customer problem with current evidence.
 2. A credible reason this team can win.
 3. A market large enough for the intended return model.
-4. A clear value-creation role for Neo Labs.
+4. A clear value-creation role for ro.fun.
 5. Known legal, technical, financial, and reputation risks.
 6. A defined next milestone and enough capital to reach it.
 
@@ -38,10 +38,19 @@ Every proposed investment must state:
 - Team assessment
 - Business model and unit economics
 - Risks and disconfirming evidence
-- Neo Labs value-add plan
+- ro.fun value-add plan
 - Proposed terms
 - Recommendation: invest, watch, or pass
 
-## Vehicle path
+## Fund implementation
 
-Start with the simplest compliant structure that matches actual demand. Advisory work, balance-sheet investing, SPVs, and a pooled fund are different businesses. Validate investor demand and operating capacity before creating a fund with long-term obligations.
+The founder chose a unified investment fund identity on 2026-11-11. The prior advisory / studio / future fund choice is superseded. Vehicle structure and fund launch are still unconfirmed.
+
+- Fund target and currency: `TBD`
+- Legal entity, manager, domicile, and formation status: `TBD`
+- Fees, carry, and minimum commitment: `TBD`
+- Investment committee and approval authority: `TBD`
+- Excluded investments: `TBD`
+- Investor eligibility and reporting: `TBD`
+
+No capital or terms are confirmed by this document. Engage qualified legal and tax advisers before fundraising or deployment.
